@@ -3,9 +3,9 @@ import time
 import numpy as np
 import torch.nn.parallel
 import torch.optim
-from ops.dataset import TSNDataSet
+from dataset import TSNDataSet
 from ops.models import TSN
-from ops.transforms import *
+from transforms import *
 from ops import dataset_config
 from torch.nn import functional as F
 import json
